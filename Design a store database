@@ -1,0 +1,13 @@
+CREATE TABLE BabiesRUs (id integer primary key, Name TEXT, Quantity TEXT, Price INTEGER, Sale Text);
+
+INSERT INTO BabiesRUs VALUES (1, "Dress", 2, 10, "No");
+INSERT INTO BabiesRUs VALUES (2, "Shirt", 3, 5, "Yes");
+INSERT INTO BabiesRUs VALUES (3, "Jacket", 2, 15, "No");
+INSERT INTO BabiesRUs VALUES (4, "Socks", 3, 1, "Yes");
+INSERT INTO BabiesRUs VALUES (5, "Pajamas", 4, 4, "Yes");
+INSERT INTO BabiesRUs VALUES (6, "Shoes", 1, 20, "No");
+SELECT * FROM BabiesRUs;
+
+--display the database ordered by price. 
+SELECT * FROM BabiesRUs
+ORDER BY price desc; 
